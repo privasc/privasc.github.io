@@ -27,52 +27,70 @@
             </div>
             
             <div class="clearfix"></div>
+            <div id="web-title">
+                <h1>PRA 2 - Creación de una visualización interactiva</h1>
+                <p id="document-intro">
+                    En esta pŕactica de la asignatura <i>Visualización de datos</i> se demuestra la 
+                    creación de una visualización interactiva de tipo mapa de calor con datos 
+                    geolocalizados, creada con la biblioteca <i>open source</i> 
+                    <a href="https://leafletjs.com/">Leaflet</a>.
+                </p>
+            </div>
 
-            <h1>PRA 2 - Creación de una visualización interactiva</h1>
-            <p id="document-intro">
-                En esta pŕactica de la asignatura <i>Visualización de datos</i> se demuestra la 
-                creación de una visualización interactiva de tipo mapa de calor con datos 
-                geolocalizados, creada con la biblioteca <i>open source</i> 
-                <a href="https://leafletjs.com/">Leaflet</a>.
-            </p>
         </header>
 
         <hr>
 
         <section id="visualization">
-            <h2>¿Dónde y cuando es más peligroso el tráfico de Madrid?</h2>
-            <p>
-                Estudia la peligrosidad de tus movimientos en la ciudad de Madrid
-                según la hora y el tipo de día (festivo o laborable).
-            </p>
+            <div id="visualization-title">
+                <h2>¿Dónde y cuándo es más peligroso el tráfico en la ciudad de Madrid?</h2>
+                <p>
+                    Estudia la peligrosidad de tus movimientos en la ciudad de Madrid según el intervalo horario 
+                    y el tipo de día (festivo o laborable) con este mapa de la concentración de accidentes 
+                    de tráfico en la ciudad de Madrid, creado a partir del  
+                    <a href="https://datos.gob.es/es/catalogo/l01280796-accidentes-de-trafico-de-la-ciudad-de-madrid1">
+                        registro de accidentes de tráfico de 2021
+                    </a>
+                    (última actualización: 8 de octubre de 2021), abierto por el Ayuntamiento de Madrid.
+                </p>
+            </div>
             <div id="map"></div>
             <div id="map-controls">
-                <h3>Filtros:</h3>
-                <div class="data-selector">
-                    <h4>Día</h4>
-                    <form class ="form-criteria">
-                        <label class="criterion">Laborable <input type="checkbox" onclick="updateHeatmapLayer()" id="day-workday" checked></label>
-                        <label class="criterion">Festivo <input type="checkbox" onclick="updateHeatmapLayer()" id="day-holiday" checked></label>
-                    </form>
+                <div id="legend">
+                    <h3>Leyenda:</h3>
+                    <p>Concentración de accidentes.</p>
+                    <div id="legend-box">
+                        <div id="legend-colors"></div>
+                        <p id="label-high">Alta</p>
+                        <p id="label-low">Baja</p>
+                    </div>
                 </div>
-                <div class="data-selector">
-                    <h4>Horas</h4>
-                    <form class ="form-criteria">
-                        <label class="criterion">00:00~03:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-0" checked></label>
-                        <label class="criterion">04:00~07:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-1" checked></label>
-                        <label class="criterion">08:00~11:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-2" checked></label>
-                        <label class="criterion">12:00~15:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-3" checked></label>
-                        <label class="criterion">16:00~19:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-4" checked></label>
-                        <label class="criterion">20:00~23:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-5" checked></label>
-                    </form>
+                <div class="clearfix"></div> 
+                <div id="filters">
+                    <h3>Filtros:</h3>
+                    <div class="data-selector">
+                        <h4>Día</h4>
+                        <form class ="form-criteria">
+                            <label class="criterion">Laborable <input type="checkbox" onclick="updateHeatmapLayer()" id="day-workday" checked></label>
+                            <label class="criterion">Festivo <input type="checkbox" onclick="updateHeatmapLayer()" id="day-holiday" checked></label>
+                        </form>
+                    </div>
+                    <div class="data-selector">
+                        <h4>Horas</h4>
+                        <form class ="form-criteria">
+                            <label class="criterion">00:00~03:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-0" checked></label>
+                            <label class="criterion">04:00~07:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-1" checked></label>
+                            <label class="criterion">08:00~11:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-2" checked></label>
+                            <label class="criterion">12:00~15:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-3" checked></label>
+                            <label class="criterion">16:00~19:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-4" checked></label>
+                            <label class="criterion">20:00~23:59 <input type="checkbox" onclick="updateHeatmapLayer()" id="hour-5" checked></label>
+                        </form>
+                    </div>                    
                 </div>
+                <div class="clearfix"></div> 
             </div>
-            <div class="clearfix"></div> 
         </section>
     </div>
-
-
-    <hr>
 
     <div id="references">
         <h2>Bibliografía y referencias</h2>
@@ -100,6 +118,9 @@
             </li>
         </ul>
     </div>
+
+
+
 </body>
 <script src="./scripts/controls.js"></script>
 </html>
