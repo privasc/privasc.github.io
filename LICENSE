@@ -1,13 +1,21 @@
 Copyright (c) 2021, Pablo Rivas Castellanos
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Dependencies:
-1. Leaflet:
+1. Leaflet license terms:
 	Copyright (c) 2014, Vladimir Agafonkin
 	All rights reserved.
 
@@ -30,3 +38,48 @@ Dependencies:
 	HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
 	TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+2. Datasets license terms:
+	Accidentes de tráfico de la Ciudad de Madrid (año 2021, última actualización 8/10/2021)
+	Copyright (c) 2021. Ayuntamiento de Madrid
+	Condiciones generales para la reutilización
+
+	Está prohibido desnaturalizar el sentido de la información.
+	    
+	Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá 
+	realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, 
+	en su caso, órgano administrativo, organismo o entidad de que se trate)".
+        
+        Debe mencionarse la fecha de la última actualización de los documentos objeto de la 
+	reutilización, siempre y cuando estuviera incluida en el documento original.
+        
+        No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, 
+	patrocina o apoya la reutilización que se lleve a cabo con la información.
+        Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de 
+	actualización y las condiciones de reutilización aplicables incluidos, en su caso, 
+	en el documento puesto a disposición para su reutilización.
+	
+        En caso de información anonimizada por protección de datos personales u otros motivos, 
+	está expresamente prohibido realizar labores de re-identificación de personas a partir 
+	de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.
+        
+        Exclusión de responsabilidad
+
+        La utilización de los conjuntos de datos se realizará por parte de las personas y/o 
+	empresas que reutilizacen datos,  bajo su propia cuenta y riesgo, correspondiéndoles 
+	en exclusiva a ellos responder frente a terceros por daños que pudieran derivarse de ella.
+
+        El Ayuntamiento de Madrid no será responsable del uso que de su información hagan las personas y/o 
+        empresas que reutilicen datos, ni tampoco de los daños sufridos o pérdidas económicas que, de forma 
+        directa o indirecta, produzcan o puedan producir perjuicios económicos, materiales o sobre datos, 
+        provocados por el uso de la información reutilizada.
+
+        El Ayuntamiento de Madrid no garantiza la continuidad en la puesta a disposición de los documentos 
+        reutilizables, ni en contenido ni en forma, ni asume responsabilidades por cualquier error u omisión 
+        contenido en ellos.
+
+        Responsabilidad de las personas y/o empresas que reutilicen datos
+
+        El agente reutilizador se halla sometido a la normativa aplicable en materia de reutilización de la 
+        información del sector público, incluyendo el régimen sancionador previsto en el artículo 11 de la Ley 37/2007, 
+        de 16 de noviembre, sobre Reutilización de la Información del Sector Público.
